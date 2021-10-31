@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+<head>
+    
+    <title>Bootstrap 5 Example</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.theme.default.min.css" rel="stylesheet">
+    <style>
+        .owl-prev > span {
+            position: absolute;
+            top: 30%;
+            left: -4px;
+            font-size: 80px;
+        }
+        .owl-next > span {
+            position: absolute;
+            top: 30%;
+            right: -4px;
+            font-size: 80px;
+        }
+        .item{
+            width: 70%;
+            border: 1px solid gray;
+            border-radius: 0 0 20px 20px;;
+            top: 30%;
+
+        }
+        .card:hover{
+            border: 2px solid salmon;
+
+        }
+        .owl-carousel{
+           align-content: center;
+        }
+        
+    </style>
+</head>
+
+<body>
+<div class="owl-carousel owl-theme">
+
+    <div class="item shadow-sm p-3 mb-5 bg-body "  >
+        <div class="card" style="width: 18rem;">
+            <img alt="..." class="card-img-top"
+                 src="https://www.dungplus.com/wp-content/uploads/2019/12/girl-xinh-30-480x600.jpg">
+            <div class="card-body">
+                <h5 class="card-title">Tiến sĩ NGuyễn Văn </h5>
+                <p class="card-text">Luật sư - diễn giả</p>
+                <a class="btn btn-primary" href="#">Go somewhere</a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="item shadow-sm p-3 mb-5 bg-body ">
+        <div class="card" style="width: 18rem;">
+            <img alt="..." class="card-img-top"
+                 src="https://www.dungplus.com/wp-content/uploads/2019/12/girl-xinh-30-480x600.jpg">
+            <div class="card-body">
+                <h5 class="card-title">Tiến sĩ Nguyễn Văn B</h5>
+                <p class="card-text">đại sứ yoga Việt nam</p>
+                <a class="btn btn-primary" href="#">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="item shadow-sm p-3 mb-5 bg-body ">
+        <div class="card" style="width: 18rem;">
+            <img alt="..." class="card-img-top"
+                 src="https://www.dungplus.com/wp-content/uploads/2019/12/girl-xinh-30-480x600.jpg">
+            <div class="card-body">
+                <h5 class="card-title">Thạc sĩ Nguyễn Văn </h5>
+                <p class="card-text">hh</p>
+                <a class="btn btn-primary" href="#">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="item shadow-sm p-3 mb-5 bg-body ">
+        <div class="card" style="width: 18rem;">
+            <img alt="..." class="card-img-top"
+                 src="https://www.dungplus.com/wp-content/uploads/2019/12/girl-xinh-30-480x600.jpg">
+            <div class="card-body">
+                <h5 class="card-title">a</h5>
+                <p class="card-text">b</p>
+                <a class="btn btn-primary" href="#">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+    <div class="item shadow-sm p-3 mb-5 bg-body ">
+        <div class="card" style="width: 18rem;">
+            <img alt="..." class="card-img-top"
+                 src="https://www.dungplus.com/wp-content/uploads/2019/12/girl-xinh-30-480x600.jpg">
+            <div class="card-body">
+                <h5 class="card-title">a</h5>
+                <p class="card-text">b</p>
+                <a class="btn btn-primary" href="#">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+    <div class="item shadow-sm p-3 mb-5 bg-body ">
+        <div class="card" style="width: 18rem;">
+            <img alt="..." class="card-img-top"
+                 src="https://www.dungplus.com/wp-content/uploads/2019/12/girl-xinh-30-480x600.jpg">
+            <div class="card-body">
+                <h5 class="card-title">a</h5>
+                <p class="card-text">b</p>
+                <a class="btn btn-primary" href="#">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="item"> <h1>1</h1></div> 
+    <div class="item"> <h1>2</h1></div> 
+
+    <div class="item"> <h1>3</h1></div> 
+    <div class="item"> <h1>5</h1></div> 
+    <div class="item"> <h1>6</h1></div>  -->
+    
+    
+
+
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js"></script>
+<script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+
+<script>
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 3
+            },
+            1000: {
+                items: 4
+            }
+        }
+    })
+</script>
+</body>
+
+</html>
+
